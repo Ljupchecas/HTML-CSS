@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Homework4</title>
+    </head>
+    <body class="border">
+        <h1 class="center">Dado Tea Lunch Special</h1>
+        <p class="center">
+            Monday thru Friday <br>
+            11am - 3pm <br>
+            59.95 plus tax
+        </p>
+        <p class="center">Includes sandwich, snack and drink</p>
+        <form style="width: 400px;">
+            <fieldset>
+                <legend>Order Information</legend>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <br>
+                <input type="radio" name="HereOr" id="Here">
+                <label for="Here">Here</label>
+                <br>
+                <input type="radio" name="HereOr" id="ToGo">
+                <label for="ToGo">To Go</label>
+            </fieldset>
+            <fieldset>
+                <legend>Sandwiches</legend>
+                <span>Monday</span>
+                <br>
+                <input type="radio" name="monday" id="tomato">
+                <label for="tomato">Tomato Mozzarrela</label>
+                <br>
+                <input type="radio" name="monday" id="chicken">
+                <label for="chicken">Chicken Salad</label>
+                <br>
+                <span>Tuesday</span>
+                <br>
+                <input type="radio" name="tuesday" id="greek">
+                <label for="greek">Greek Salad Wrap</label>
+                <br>
+                <input type="radio" name="tuesday" id="toto">
+                <label for="toto">Toto Wrap</label>
+                <br>
+                <span>Wednesday</span>
+                <br>
+                <input type="radio" name="wednesday" id="red">
+                <label for="red">Red Papper Humans</label>
+                <br>
+                <input type="radio" name="wednesday" id="roasted">
+                <label for="roasted">Roasted Turkey</label>
+                <br>
+                <span>Thursday</span>
+                <br>
+                <input type="radio" name="thursday" id="carrot">
+                <label for="carrot">Carrot-Ginger Hummus Wrap</label>
+                <br>
+                <input type="radio" name="thursday" id="egg">
+                <label for="egg">Egg Salad</label>
+                <br>
+                <span>Friday</span>
+                <br>
+                <input type="radio" name="friday" id="dado">
+                <label for="dado">Dado Wrap</label>
+                <br>
+                <input type="radio" name="friday" id="tuna">
+                <label for="tuna">Tuna Salad</label>
+                <br> <hr>
+                <input type="checkbox" id="GlutenFree">
+                <label for="GlutenFree">Gluten Free Bread</label>
+            </fieldset>
+            <fieldset>
+                <legend>Snack</legend>
+                <span>Snack</span>
+                <br>
+                <input type="radio" name="snack" id="app">
+                <label for="app">Apple</label>
+                <br>
+                <input type="radio" name="snack" id="ban">
+                <label for="ban">Bannana</label>
+                <br>
+                <input type="radio" name="snack" id="pot">
+                <label for="pot">Potato Chips</label>
+            </fieldset>
+            <fieldset>
+                <legend>Drinks</legend>
+                <label for="drinks">Drinks</label>
+                <br>
+                <select name="" id="">
+                    <option value="cof">Coffe or Iced Coffe</option>
+                    <option value="pep">Organic Peppermint</option>
+                    <option value="grTea">Hot or Icead Senchea Green Tea</option>
+                    <option value="blTea">Hot or Icead Keemun Black Tea</option>
+                </select>
+                <br> <hr>
+                <input type="checkbox" id="lar">
+                <label for="lar">Large Drink (75$extra)</label>
+            </fieldset>
+            <br>
+            <input class="place" type="submit" value="Place Order">
+        </form>
+    </body>
+</html>
