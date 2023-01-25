@@ -1,0 +1,80 @@
+h1 {
+    text-align: center;
+}
+
+/* Neznam zosto nemam idea kako sekcijava da ja donesam na sredina ekran koga stavam width:50% mi ja dava po desno, koga stavam 40 mi ja dava tocno na sredina pod naslovot. Dali i kaj vas e taka mada ne bitrebalo bidejki e so procenti. */
+.section {
+    margin: auto;
+    width: 40%;
+}
+
+.section > div:nth-child(1) {
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    position: absolute;
+}
+
+.section > div:nth-child(2) {
+    border: 3px solid black;
+    width: 120px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    margin: 0 0;
+}
+
+.section > div:nth-child(3) {
+    border: 3px solid black;
+    width: 120px;
+    height: 200px;
+    background-color: white;
+    position: absolute;
+    margin: 170px 0;
+}
+
+.section > div:nth-child(4) {
+    border: 3px solid black;
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    position: absolute;
+    margin: 380px 0;
+}
+
+.section > div:nth-child(5) {
+    border: 3px solid black;
+    width: 370px;
+    height: 370px;
+    background-color: red;
+    position: absolute;
+    margin: 0 0 0 130px;
+}
+
+.section > div:nth-child(6) {
+    border: 3px solid black;
+    width: 330px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    margin: 380px 0 0 130px;
+}
+
+.section > div:nth-child(7) {
+    border: 3px solid black;
+    width: 30px;
+    height: 52px;
+    background-color: white;
+    position: absolute;
+    margin: 380px 0 0 470px;
+}
+
+.section > div:nth-child(8) {
+    border: 3px solid black;
+    width: 30px;
+    height: 52px;
+    background-color: yellow;
+    position: absolute;
+    margin: 448px 0 0 470px;
+}
